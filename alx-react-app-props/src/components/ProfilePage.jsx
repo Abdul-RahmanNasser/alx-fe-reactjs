@@ -1,6 +1,7 @@
 /* eslint-disable */
+import React from "react";
 import UserInfo from './UserInfo';
-function ProfilePage({ userData }) {
+function ProfilePage() {
   return <UserInfo/>;
 }
 export default ProfilePage;
