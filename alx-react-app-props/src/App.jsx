@@ -1,4 +1,3 @@
-/* eslint-disable */
 import ProfilePage from "./components/ProfilePage";
 import UserContext from "./UserContext";
 function App() {

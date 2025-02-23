@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useContext } from "react";
 import UserContext from "../UserContext";
 function UserDetails() {
