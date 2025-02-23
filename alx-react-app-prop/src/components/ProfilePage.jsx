@@ -1,6 +1,6 @@
 /* eslint-disable */
 import UserInfo from './UserInfo';
 function ProfilePage({ userData }) {
-  return <UserInfo userData={userData} />;
+  return <UserInfo/>;
 }
 export default ProfilePage;

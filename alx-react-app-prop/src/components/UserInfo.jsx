@@ -1,6 +1,6 @@
 /* eslint-disable */
 import UserDetails from './UserDetails';
 function UserInfo({ userData }) {
-  return <UserDetails userData={userData} />;
+  return <UserDetails/>;
 }
 export default UserInfo;

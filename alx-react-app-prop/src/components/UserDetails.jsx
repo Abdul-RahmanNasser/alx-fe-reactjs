@@ -1,10 +1,11 @@
 /* eslint-disable */
-function UserDetails({ userData }) {
-    return (
-      <div>
-        <p>Name: {userData.name}</p>
-        <p>Email: {userData.email}</p>
-      </div>
-    );
+import { useContext } from "react";
+function UserDetails() {
+  return (
+    <div>
+      <p>Name: {user.name}</p>
+      <p>Email: {user.email}</p>
+    </div>
+  );
 }
 export default UserDetails;
