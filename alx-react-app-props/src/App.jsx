@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import ProfilePage from "./components/ProfilePage";
-import UserContext from "./components/UserContext";
+import UserContext from "./UserContext";
 function App() {
   const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
   return (
