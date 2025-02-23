@@ -1,4 +1,4 @@
 /* eslint-disable */
-import React, { createContext } from "react";
-const UserContext = React.createContext();
+import { createContext } from "react";
+const UserContext = createContext();
 export default UserContext;
